@@ -41,7 +41,6 @@ Minecraft Minecraft::SetSprinting(bool sprinting)
 {
     Minecraft player = GetPlayer();
 
-    // Get the actual class of the player entity
     Mapper::Mapper entityMapper("net.minecraft.world.entity.Entity");
     std::string obfClass = entityMapper.getObfuscatedClassName();
 
